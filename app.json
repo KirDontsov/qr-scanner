@@ -23,7 +23,8 @@
     "ios": {
       "supportsTablet": true,
       "infoPlist": {
-        "NSCameraUsageDescription": "This app needs camera access to scan QR codes"
+        "NSCameraUsageDescription": "This app needs camera access to scan QR codes",
+        "ITSAppUsesNonExemptEncryption": false
       },
       "bundleIdentifier": "com.kirilldoncov.QRScanner"
     },
@@ -32,10 +33,20 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.kirilldoncov.QRScanner"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5664c735-e8ca-431a-a78f-80088f3ae3c0"
+      }
     }
   }
 }
