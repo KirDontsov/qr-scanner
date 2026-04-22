@@ -14,7 +14,7 @@
     "axios": "^1.15.2",
     "expo": "~54.0.33",
     "expo-av": "^16.0.8",
-    "expo-camera": "^55.0.16",
+    "expo-camera": "~16.0.10",
     "expo-file-system": "^19.0.21",
     "expo-sqlite": "^55.0.15",
     "expo-status-bar": "~3.0.9",
